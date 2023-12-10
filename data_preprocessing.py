@@ -31,7 +31,7 @@ def parse_and_preprocess_openfoam_data(foambase_directory):
     # Combine features with additional parameters
     data_point = (field_data["alpha.water"], velocity_magnitude, field_data["p"])
 
-    # Extract target data (e.g., lift, drag)
+    # Extract target data (e.g., lift, drag, moment)
     # Replace with your specific target data parsing method
     lift, drag, moment = ...
 
@@ -39,3 +39,4 @@ def parse_and_preprocess_openfoam_data(foambase_directory):
     data_list.append((data_point, (lift, drag, moment)))
 
   return data_list
+
