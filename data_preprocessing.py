@@ -1,4 +1,4 @@
-import Ofpp
+import openfoamparser_mai as Ofpp
 import os
 
 
