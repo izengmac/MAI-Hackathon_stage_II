@@ -45,4 +45,4 @@ def evaluate(model, data_loader):
       outputs = model(*inputs)
 
       # Calculate loss
-      loss = loss_fn(
+      loss = loss_fn()
